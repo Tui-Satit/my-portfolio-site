@@ -50,6 +50,7 @@ function App() {
       {/* SERVICES */}
       <section style={{ textAlign: "center", padding: "60px 20px", backgroundColor: "white" }}>
         <h2>My Services</h2>
+        <p>Starting from 3,000 THB</p>
 
         <div
           style={{
@@ -126,6 +127,13 @@ function App() {
           >
             View Live Project
           </a>
+
+          <h3>Restaurant Website</h3>
+<p>Website for Thai restaurant with menu and LINE order system</p>
+
+<a href="https://restaurant-website-three-sooty.vercel.app/" target="_blank">
+  View Live Project
+</a>
         </div>
       </section>
 
@@ -157,7 +165,7 @@ function App() {
               cursor: "pointer"
             }}
           >
-            Start Chat on LINE
+            Get Your Website Now
           </button>
         </a>
       </section>
