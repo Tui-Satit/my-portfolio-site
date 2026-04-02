@@ -7,7 +7,7 @@ function App() {
       <section
         style={{
           background: "linear-gradient(135deg, #1e1e1e, #444)",
-          color: "Y",
+          color: "white",
           textAlign: "center",
           padding: "80px 20px"
         }}
