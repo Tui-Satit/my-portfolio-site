@@ -9,7 +9,7 @@ function App() {
           background: "linear-gradient(135deg, darkgray , gray)",
           color: "white",
           textAlign: "center",
-          padding: "80px 20px"
+          padding: "80px 25px"
         }}
       >
         <img
