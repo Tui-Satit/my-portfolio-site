@@ -6,7 +6,7 @@ function App() {
       {/* HERO */}
       <section
         style={{
-          background: "linear-gradient(135deg, #1e1e1e, #444)",
+          background: "linear-gradient(135deg, darkgray , gray)",
           color: "white",
           textAlign: "center",
           padding: "80px 20px"
