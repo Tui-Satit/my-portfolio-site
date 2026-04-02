@@ -1,3 +1,4 @@
+import profile from "./profile.jpg";
 function App() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f7f7f7", color: "#222" }}>
@@ -11,6 +12,18 @@ function App() {
           padding: "80px 20px"
         }}
       >
+        <img
+  src={profile}
+  alt="Tui"
+  style={{
+    width: "150px",
+    height: "150px",
+    borderRadius: "50%",
+    objectFit: "cover",
+    marginBottom: "20px",
+    border: "4px solid white"
+  }}
+/>
         <h1 style={{ fontSize: "48px", marginBottom: "10px" }}>Hi, I am Tui 👋</h1>
         <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>Web Developer</h2>
         <p style={{ fontSize: "18px", marginBottom: "30px" }}>
