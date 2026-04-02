@@ -14,7 +14,8 @@ function App() {
         <h1 style={{ fontSize: "48px", marginBottom: "10px" }}>Hi, I am Tui 👋</h1>
         <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>Web Developer</h2>
         <p style={{ fontSize: "18px", marginBottom: "30px" }}>
-          I build simple websites that help your business get more customers.
+          
+          I build websites that help your business get more customers and increase sales.
         </p>
 
         <a
@@ -104,38 +105,60 @@ function App() {
 
       {/* PROJECT */}
       <section style={{ textAlign: "center", padding: "60px 20px" }}>
-        <h2>My Project</h2>
+  <h2>My Project</h2>
 
-        <div
-          style={{
-            maxWidth: "600px",
-            margin: "30px auto",
-            backgroundColor: "white",
-            padding: "30px",
-            borderRadius: "12px",
-            boxShadow: "0 4px 12px rgba(0,0,0,0.08)"
-          }}
-        >
-          <h3>Coffee Website</h3>
-          <p>Website for coffee shop with menu and LINE contact button.</p>
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      gap: "20px",
+      flexWrap: "wrap",
+      marginTop: "30px"
+    }}
+  >
+    <div
+      style={{
+        width: "320px",
+        backgroundColor: "white",
+        padding: "30px",
+        borderRadius: "12px",
+        boxShadow: "0 4px 12px rgba(0,0,0,0.08)"
+      }}
+    >
+      <h3>Coffee Website</h3>
+      <p>Website for coffee shop with menu and LINE contact button.</p>
+      <a
+        href="https://coffee-website-olive-seven.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#06C755", fontWeight: "bold", textDecoration: "none" }}
+      >
+        View Live Project
+      </a>
+    </div>
 
-          <a
-            href="https://coffee-website-olive-seven.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "#06C755", fontWeight: "bold", textDecoration: "none" }}
-          >
-            View Live Project
-          </a>
-
-          <h3>Restaurant Website</h3>
-<p>Website for Thai restaurant with menu and LINE order system</p>
-
-<a href="https://restaurant-website-three-sooty.vercel.app/" target="_blank">
-  View Live Project
-</a>
-        </div>
-      </section>
+    <div
+      style={{
+        width: "320px",
+        backgroundColor: "white",
+        padding: "30px",
+        borderRadius: "12px",
+        boxShadow: "0 4px 12px rgba(0,0,0,0.08)"
+      }}
+    >
+      <h3>Restaurant Website</h3>
+      <p>Website for Thai restaurant with menu and LINE order system.</p>
+      <a
+        href="https://restaurant-website-three-sooty.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#06C755", fontWeight: "bold", textDecoration: "none" }}
+      >
+        View Live Project
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* CONTACT */}
       <section
