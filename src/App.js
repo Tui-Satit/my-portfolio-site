@@ -1,4 +1,4 @@
-import profile from "./profile.jpg";
+import profile from "./profile-temp.jpg";
 function App() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f7f7f7", color: "#222" }}>
@@ -13,7 +13,7 @@ function App() {
         }}
       >
         <img
-  src={profile}
+  src={profile-temp.jpg}
   alt="Tui"
   style={{
     width: "150px",
