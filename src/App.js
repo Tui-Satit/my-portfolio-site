@@ -13,7 +13,7 @@ function App() {
         }}
       >
         <img
-  src={profile-temp.jpg}
+  src={profile}
   alt="Tui"
   style={{
     width: "150px",
