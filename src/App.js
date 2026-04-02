@@ -157,6 +157,28 @@ function App() {
         View Live Project
       </a>
     </div>
+
+    <div
+  style={{
+    width: "320px",
+    minHeight: "220px",
+    backgroundColor: "white",
+    padding: "30px",
+    borderRadius: "12px",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.08)"
+  }}
+>
+  <h3>Bakery Website</h3>
+  <p>Website for bakery shop with menu and LINE order button.</p>
+  <a
+    href="https://bakery-website-two-ruddy.vercel.app"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "#06C755", fontWeight: "bold", textDecoration: "none" }}
+  >
+    View Live Project
+  </a>
+</div>
   </div>
 </section>
 
