@@ -96,7 +96,7 @@ function App() {
             <h3>Bakery Website</h3>
             <p>Website for bakery shop with menu and LINE order button.</p>
             <a
-              href="PASTE_YOUR_BAKERY_LINK_HERE"
+              href="https://bakery-website-two-ruddy.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="project-link"
