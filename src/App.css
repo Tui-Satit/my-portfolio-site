@@ -36,3 +36,267 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.portfolio {
+  min-height: 100vh;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  animation: fadeIn 1.2s ease;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 24px;
+  border: 5px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.45);
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin: 0 0 10px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin: 0 0 16px;
+  opacity: 0.95;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 18px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.price-text {
+  color: #80ff9f;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+/* GLOW BUTTON */
+.glow-btn {
+  display: inline-block;
+  padding: 15px 32px;
+  background: #06c755;
+  color: white;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 0 0 rgba(6, 199, 85, 0.5);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.glow-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 0 18px rgba(6, 199, 85, 0.75), 0 0 36px rgba(6, 199, 85, 0.35);
+  background: #05b44c;
+}
+
+/* SECTION */
+.section {
+  padding: 70px 20px;
+  text-align: center;
+  animation: fadeUp 0.9s ease;
+}
+
+.section h2 {
+  font-size: 40px;
+  margin-bottom: 18px;
+}
+
+.section p {
+  max-width: 760px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* SERVICES */
+.services {
+  background: white;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.card {
+  width: 290px;
+  min-height: 220px;
+  background: #f3f3f3;
+  border-radius: 18px;
+  padding: 28px 24px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.14);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+/* PROJECTS */
+.projects {
+  background: #f7f7f7;
+}
+
+.project-card {
+  width: 320px;
+  min-height: 220px;
+  background: white;
+  border-radius: 18px;
+  padding: 30px 24px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.14);
+}
+
+.project-link {
+  color: #06c755;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* CONTACT */
+.contact {
+  background: #1e1e1e;
+  color: white;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* FLOAT BUTTON */
+.floating-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #06c755;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+/* Glow + hover */
+.floating-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(6, 199, 85, 0.8),
+              0 0 30px rgba(6, 199, 85, 0.4);
+}
+
+.floating-btn {
+  animation: floatUp 2s infinite;
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+/* FLOAT BUTTON (เริ่มซ่อนก่อน) */
+.floating-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #06c755;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* เมื่อแสดง */
+.floating-btn.show {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
