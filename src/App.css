@@ -255,9 +255,7 @@ body {
               0 0 30px rgba(6, 199, 85, 0.4);
 }
 
-.floating-btn {
-  animation: floatUp 2s infinite;
-}
+
 
 @keyframes floatUp {
   0% { transform: translateY(0); }
@@ -283,12 +281,12 @@ body {
   opacity: 0;
   transform: translateY(20px);
 
-  animation: bounce 1.2s infinite;
+  
 }
 
 /* เมื่อแสดง */
 .floating-btn.show {
-  animation: fadeInUp 0.6s ease forwards;
+  animation: fadeInUp 0.6s ease forwards, bounceSoft 2s infinite;
 }
 
 /* animation */
@@ -304,14 +302,9 @@ body {
 }
 
 /* BOUNCE ANIMATION */
-@keyframes bounce {
+@keyframes bounceSoft {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
+  30% { transform: translateY(-6px); }
+  60% { transform: translateY(-3px); }
 }
 
-/* ใช้เฉพาะ mobile */
-@media (max-width: 768px) {
-  .floating-btn {
-    animation: bounce 1.2s infinite;
-  }
-}
