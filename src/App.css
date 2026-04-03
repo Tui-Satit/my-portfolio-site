@@ -300,3 +300,16 @@ body {
     transform: translateY(0);
   }
 }
+
+/* BOUNCE ANIMATION */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* ใช้เฉพาะ mobile */
+@media (max-width: 768px) {
+  .floating-btn {
+    animation: bounce 1.2s infinite;
+  }
+}
