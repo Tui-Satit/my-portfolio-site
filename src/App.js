@@ -31,7 +31,7 @@ function App() {
           rel="noopener noreferrer"
           className="glow-btn"
         >
-          💬 Chat on LINE
+          💬 Get Your Website Now
         </a>
       </section>
 
@@ -118,7 +118,7 @@ function App() {
         rel="noopener noreferrer"
         className={`floating-btn ${showBtn ? "show" : ""}`}
       >
-        💬 Get Your Website Now
+        💬 Chat on LINE
       </a>
     </div>
   );
