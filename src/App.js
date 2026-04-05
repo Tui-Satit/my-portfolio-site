@@ -65,10 +65,14 @@ function App() {
 
       <section className="section projects">
         <h2>Featured Projects</h2>
+
         <div className="card-grid">
           <div className="project-card">
-            <h3>Coffee Website</h3>
-            <p>Website for coffee shop with menu and LINE contact button.</p>
+            <h3>Coffee Ordering Web App ☕</h3>
+            <p>
+              Modern coffee ordering web application with cart system,
+              pickup/delivery option, and LINE integration.
+            </p>
             <a
               href="https://coffee-website-olive-seven.vercel.app/"
               target="_blank"
