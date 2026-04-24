@@ -260,15 +260,6 @@ function App() {
         </p>
 
         <p className="contact-line">LINE ID: satitMe</p>
-
-        <a
-          href="https://line.me/ti/p/~satitMe"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contact-btn"
-        >
-          💬 แชทผ่าน LINE
-        </a>
       </section>
 
       {/* FLOAT BUTTON */}
